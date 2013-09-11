@@ -1,5 +1,10 @@
 modules = {
     application {
-        resource url:'js/application.js'
+        dependsOn 'jquery'
+
+        resource url:'js/bootstrap.js'
+        resource url:'css/bootstrap.css'
+        resource url:'css/bootstrap-theme.css'
+        resource url:'css/main.css'
     }
 }
